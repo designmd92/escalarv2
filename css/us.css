@@ -1,0 +1,163 @@
+.abtus {
+    margin-top: 40px;
+}
+
+#abt {
+    width: 250px;
+    height: 500px;
+    background: rgb(50, 122, 54);
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+#abt #advt {
+    margin-top: -20px;
+    margin-left: 90px;
+    margin-bottom: 10px;
+}
+
+#abt h3 {
+    font-size: 40px;
+    color: darkred;
+}
+
+#abt p {
+    width: 85%;
+    margin-left: 10%;
+    font-size: 19px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+
+#abt #advb {
+    margin-top: 10px;
+    margin-left: 75px;
+}
+
+#mis {
+    width: 600px;
+    height: 380px;
+    background: rgb(50, 122, 54);
+    text-align: center;
+    box-shadow: -2px -2px 2px rgba(0, 0, 0, .5),2px 2px 2px rgba(0, 0, 0, .5);
+    margin-left: -5px;
+    margin-top: 10px;
+}
+
+#mis #mis-in {
+    position: relative;
+    width: 97%;
+    height: 95%;
+    background: white;
+    margin: 1.5% 1.5%;
+}
+
+#mis #mis-in #advl {
+    position: absolute;
+    margin-left: -35px;
+    margin-top: -30px;
+}
+
+#mis #mis-in #advr {
+    position: absolute;
+    margin-left: 535px;
+    margin-top: -30px;
+}
+
+#mis #mis-in h3 {
+    font-size: 50px;
+    color: darkred;
+}
+
+#mis #mis-in p {
+    width: 95%;
+    margin-left: 2.5%;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+}
+
+#vis {
+    width: 350px;
+    height: 200px;
+    background: rgb(50, 122, 54);
+    text-align: center;
+    box-shadow: -2px -2px 2px rgba(0, 0, 0, .5),2px 2px 2px rgba(0, 0, 0, .5);
+    margin-left: -595px;
+    margin-top: 410px;
+}
+
+#vis #vis-in {
+    position: relative;
+    width: 97%;
+    height: 95%;
+    background: white;
+    margin: 1.5% 1.5%;
+}
+
+#vis #vis-in #advv {
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -60px;
+}
+
+#vis #vis-in h3 {
+    font-size: 40px;
+    color: darkred;
+}
+
+#vis #vis-in p {
+    width: 95%;
+    margin-left: 2.5%;
+    font-size: 15px;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+}
+
+#boyau {
+    position: relative;
+    width: 350px;
+    height: 200px;
+    text-align: center;
+    margin-left: -45px;
+    margin-top: 365px;
+}
+
+#abte {
+    width: 250px;
+    height: 350px;
+    background: rgb(50, 122, 54);
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+#abte #advt {
+    margin-top: -20px;
+    margin-left: 90px;
+    margin-bottom: 10px;
+}
+
+#abte h3 {
+    font-size: 40px;
+    color: darkred;
+}
+
+#abte p {
+    width: 85%;
+    margin-left: 10%;
+    font-size: 19px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+
+#abte #advb {
+    margin-top: 35px;
+    margin-left: 75px;
+}

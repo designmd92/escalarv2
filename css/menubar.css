@@ -1,0 +1,96 @@
+.icon-men {
+    display: none;
+    color: white;
+    width: 45px;
+    height: 40px;
+    margin: 15px;
+    font-size: 30px;
+    text-align: center;
+    margin-left: auto;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.nav {
+    position: absolute;
+    top: 10px;
+    left: 680px;
+    width: 650px;
+    transition: all .5s;
+    z-index: 1000;
+}
+
+.nav-e {
+    position: absolute;
+    top: 10px;
+    left: 600px;
+    width: 710px;
+    transition: all .5s;
+    z-index: 1000;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: static;
+    display: flex;
+    height: auto;
+    width: auto;
+}
+
+.us-link {
+    display: block;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    transition: all .3s;
+}
+
+.menu-link {
+    display: block;
+    padding: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    transition: all .3s;
+}
+
+.menu-link:hover, .us-link:hover {
+    color: black;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+.menu-link-select {
+    color: black;
+    text-shadow: 1px 1px 2px rgba(54, 112 ,0);
+    border-radius: 5px;   
+}
+
+.menu a {
+    display: block;
+}
+
+.menu a span {
+    margin-left: 30%;
+}
+
+.menu ul {
+    position: absolute;
+    display: none;
+    list-style: none;
+    background: rgba(0, 0, 0, .4);
+    border-radius: 5px;
+}
+
+.menu li:hover ul{
+    display: block;
+}
+
+.mostrar {
+    left: 0;
+}

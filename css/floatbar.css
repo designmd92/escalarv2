@@ -1,0 +1,30 @@
+#float-bar {
+    position: fixed;
+    display: flex;
+    right: 1%;
+    top: 12%;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+
+#float-bar a{
+    margin-bottom: 10px;
+    text-decoration: none;
+    -webkit-filter: drop-shadow(2px 2px 2px black);
+    filter: drop-shadow(2px 2px 2px black);
+    cursor: pointer;
+}
+
+#float-bar a span {
+    position: absolute;
+    right: 120%;
+    top: 15%;
+    color: white;
+    display: none;
+    transition: all .5s;
+}
+
+#float-bar a:hover span {
+    display: block;
+}

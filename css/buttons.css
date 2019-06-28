@@ -1,0 +1,38 @@
+.buttons {
+    width: 100%;
+    margin-top: 20px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.buttons a {
+    width: 50%;
+    text-align: center;
+}
+
+.buttons a input {
+    width: 350px;
+    margin-bottom: 5%;
+    background: rgb(50, 122, 54);
+    padding: 10px 20px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, .5);
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+
+.buttons a input:hover {
+    background-color: rgb(40, 94, 42);
+}
+
+.buttons a #b1 {
+    margin-left: 120px;
+}
+
+.buttons a #b2 {
+    margin-right: 120px;
+}
