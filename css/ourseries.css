@@ -1,0 +1,53 @@
+.buttons-our {
+    width: 100%;
+    margin-top: 100px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.buttons-our p {
+    width: 50%;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
+}
+
+.buttons-our #blearn {
+    margin-top: -40px;
+}
+
+.carats {
+    width: 100%;
+    margin-top: 20px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.carats div {
+    width: 50%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.carats img {
+    width: 450px;
+    height: 300px;
+}
+
+.carats img:hover {
+    animation: mover 1.2s infinite linear;
+}
+
+@keyframes mover {
+    0% {transform: rotateZ(0deg);}
+    25% {transform: rotateZ(10deg);}
+    50% {transform: rotateZ(0deg);}
+    75% {transform: rotateZ(-10deg);}
+    100% {transform: rotateZ(0deg);}
+}
