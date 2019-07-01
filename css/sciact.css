@@ -1,0 +1,320 @@
+.title-sci{
+    width: 100%;
+    margin-top: 50px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-sci{
+    width: 100%;
+    margin-top: 50px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.title-sci .sciact-p {
+    color: crimson;
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 0px 0px 2px black;
+}
+
+.info-sci .column-lft {
+    width: 48%;
+}
+
+.column-lft {
+    margin-right: 1%;
+}
+
+.column-lft .inf {
+    width: 450px;
+    height: 100px;
+    background: rgb(50, 122, 54);
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: -2px -2px 2px rgba(0, 0, 0, .5),2px 2px 2px rgba(0, 0, 0, .5);
+}
+
+.inf #advt {
+    position: absolute;
+    margin-left: 190px;
+    margin-top: -20px;
+}
+
+.inf p {
+    position: relative;
+    font-size: 22px;
+    color: white;
+    text-align: left;
+    margin-left: 15px;
+    top: 20px;
+}
+
+.inf #advb {
+    margin-left: 175px;
+    margin-top: 10px;
+}
+
+.column-lft .txt-str {
+    width: 450px;
+    height: 300px;
+    background: rgb(50, 122, 54);
+    text-align: center;
+    margin-top: 60px;
+    box-shadow: -2px -2px 2px rgba(0, 0, 0, .5),2px 2px 2px rgba(0, 0, 0, .5);
+}
+
+.txt-str .txt-strin {
+    position: relative;
+    width: 97%;
+    height: 95%;
+    background: darkkhaki;
+    margin: 2.5% 1.5%;
+    top: 2.5%;
+}
+
+.txt-str .txt-strin #advl {
+    position: absolute;
+    margin-left: -35px;
+    margin-top: -30px;
+}
+
+.txt-str .txt-strin #advr {
+    position: absolute;
+    margin-left: 385px;
+    margin-top: -30px;
+}
+
+.txt-str .txt-strin #txt-strttl {
+    font-size: 28px;
+    color: darkblue;
+
+}
+
+.txt-str .txt-strin .cl-lft {
+    display: inline-block;
+    float: left;
+    width: 49%;
+}
+
+.txt-str .txt-strin .cl-lft p {
+    font-size: 24px;
+    color: crimson;
+}
+
+.txt-str .txt-strin .cl-lft li {
+    font-size: 16px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.txt-str .txt-strin .cl-rgt {
+    display: inline-block;
+    float: left;
+    width: 49%;
+}
+
+.txt-str .txt-strin .cl-rgt {
+    border-left: 2px dashed crimson;
+}
+
+.txt-str .txt-strin .cl-rgt p {
+    font-size: 24px;
+    color: crimson;
+}
+
+.txt-str .txt-strin .cl-rgt li {
+    font-size: 16px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.sld-crt {
+    margin-top: 20px;
+    width: 450px;
+    height: 320px;
+    background: rgba(50, 122, 54, .8);
+    border-radius: 10px;
+    box-shadow: -2px -2px 2px rgba(0, 0, 0, .5),2px 2px 2px rgba(0, 0, 0, .5);
+}
+
+.slider-our {
+    width: 420px;
+    margin: auto;
+    top: 10px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+}
+
+.slider-our ul {
+    display: flex;
+    padding: 0;
+    width: 2100px;
+    animation: scrollsci 20s infinite alternate linear;
+}
+
+.slider-our li {
+    list-style: none;
+}
+
+.slider-our img {
+    width: 420px;
+}
+
+@keyframes scrollsci {
+    0% {margin-left: 0;}
+    16% {margin-left: 0;}
+    21% {margin-left: -420px;}
+    37% {margin-left: -420px;}
+    42% {margin-left: -840px;}
+    58% {margin-left: -840px;}
+    63% {margin-left: -1260px;}
+    79% {margin-left: -1260px;}
+    84% {margin-left: -1680px;}
+    100% {margin-left: -1680px;}
+}
+
+.info-sci .column-rgt {
+    width: 48%;
+}
+
+.column-rgt {
+    border-left: 4px dashed crimson;
+    margin-left: 2%;
+    float: left;
+}
+
+.column-rgt .pres {
+    width: 450px;
+    height: 600px;
+    background: rgb(50, 122, 54);
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 20px;
+    box-shadow: -2px -2px 2px rgba(0, 0, 0, .5),2px 2px 2px rgba(0, 0, 0, .5);
+}
+
+.pres .presin {
+    position: relative;
+    width: 97%;
+    height: 95%;
+    background: white;
+    margin: 2.5% 1.5%;
+    top: 2.5%;
+}
+
+.pres .presin #advl {
+    position: absolute;
+    margin-left: -35px;
+    margin-top: -35px;
+}
+
+.pres .presin #advr {
+    position: absolute;
+    margin-left: 385px;
+    margin-top: -35px;
+}
+
+.pres .presin p {
+    font-size: 32px;
+    color: darkblue;
+}
+
+.pres .presin li {
+    width: 90%;
+    margin-left: 5%;
+    font-size: 17px;
+    text-align: left;
+    line-height: 20px;
+}
+
+.column-rgt .preses {
+    width: 450px;
+    height: 600px;
+    background: rgb(50, 122, 54);
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 20px;
+    box-shadow: -2px -2px 2px rgba(0, 0, 0, .5),2px 2px 2px rgba(0, 0, 0, .5);
+}
+
+.preses .presin {
+    position: relative;
+    width: 97%;
+    height: 95%;
+    background: white;
+    margin: 2.5% 1.5%;
+    top: 2.5%;
+}
+
+.preses .presin #advl {
+    position: absolute;
+    margin-left: -35px;
+    margin-top: -35px;
+}
+
+.preses .presin #advr {
+    position: absolute;
+    margin-left: 385px;
+    margin-top: -35px;
+}
+
+.preses .presin p {
+    font-size: 32px;
+    color: darkblue;
+}
+
+.preses .presin li {
+    width: 90%;
+    margin-left: 5%;
+    font-size: 17px;
+    text-align: left;
+    line-height: 18px;
+}
+.matsci {
+    width: 400px;
+    height: 150px;
+    background: rgb(50, 122, 54);
+    text-align: center;
+    margin-left: 55px;
+    margin-top: 20px;
+    box-shadow: -2px -2px 2px rgba(0, 0, 0, .5),2px 2px 2px rgba(0, 0, 0, .5);
+}
+
+.matsci #advv {
+    position: absolute;
+    margin-left: 190px;
+    margin-top: -55px;
+}
+
+.matsci .clleft {
+    width: 38%;
+    float: left;
+}
+
+.clleft p {
+    margin-top: 30%;
+    color: crimson;
+    font-size: 36px;
+    text-shadow: 0px 0px 2px black;
+
+}
+
+.matsci .clrgt {
+    width: 58%;
+    float: left;
+}
+
+.clrgt li {
+    color: white;
+    text-align: left;
+    line-height: 20px;
+}
+
+.clrgt li:first-child {
+    margin-top: 10px;
+}

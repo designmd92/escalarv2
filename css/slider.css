@@ -20,7 +20,7 @@
     display: flex;
     padding: 0;
     width: 400%;
-    animation: scroll 40s infinite alternate ease-in-out;
+    animation: scroll 40s infinite alternate linear;
 }
 
 .slider li {
