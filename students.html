@@ -2,15 +2,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
-    <meta name="description" content="Editorial Escalar Official Website... Know more about our Series">
+    <meta name="description" content="Editorial Escalar Official Website... Tools for students">
     <link rel="shortcut icon" href="img/ico.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/fontello.css">
-    <title>Our Series | Editorial Escalar</title>
+    <title>Students | Editorial Escalar</title>
 </head>
 <body>
     <div id="float-bar">
-        <a href="nseries.html"><span>Spanish</span><img src="img/es.png" alt="spanish"></a>
+        <a href="alumnos.html"><span>Spanish</span><img src="img/es.png" alt="spanish"></a>
         <a href="#"><span>English</span><img src="img/en.png" alt="english"></a>
     </div>
     <header class="header">
@@ -21,13 +21,13 @@
                 <ul class="menu">
                     <li><a href="index.html" class="menu-link">Home<i class="icon-hm"></i></a></li>
                     <li><a href="us.html" class="menu-link us-link">Us<i class="icon-us"></i></a></li>
-                    <li class="sub-menu"><a href="#" class="menu-link menu-link-select">Our Series<i class="icon-ours"></i><br><span class="icon-down"></span></i></a>
+                    <li class="sub-menu"><a href="ourseries.html" class="menu-link">Our Series<i class="icon-ours"></i><br><span class="icon-down"></span></i></a>
                         <ul>
                             <li><a href="scisoc.html" class="menu-link">Science and Social</a></li>
                             <li><a href="sciact.html" class="menu-link">Science in Action</a></li>
                         </ul>
                     </li>
-                    <li><a href="students.html" class="menu-link">Students<i class="icon-users"></i></a></li>
+                    <li><a href="#" class="menu-link menu-link-select">Students<i class="icon-users"></i></a></li>
                     <li><a href="teachers.html" class="menu-link">Teachers<i class="icon-user"></i></a></li>
                     <li><a href="contact.html" class="menu-link">Contact Us<i class="icon-addb"></i></a></li>
                 </ul>
@@ -35,29 +35,24 @@
             
         </div>
     </header>
-    <main>
-        <section>
+    <main class="loginback">
+        <section class="loginbox" id="loginbox">
             <div class="content">
-                <div class="buttons-our">
-                    <p id="blearn">Learning Science<br>and Social Studies</p>
-                    <p>Science in Action</p>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="content">
-                <div class="carats">
-                    <div><a href="scisoc.html"><img src="img/caractlearn.webp" alt=""></a></div>
-                    <div><a href="sciact.html"><img src="img/caractaction.webp" alt=""></a></div>
+                <div class="boxlg">
+                    <h3>Type your Code</h3>
+                    <input type="password" placeholder="Type Here" id="codelog">
+                    <input onclick="login()" type="button" value="Log In" id="btlog">
+                    <p id="wcod">Wrong Code... Please type again for login</p>
                 </div>
             </div>
         </section>
     </main>
-    <footer class="footer">
+    <footer>
         <div class="content">
             <p class="copy">Designed by MauDaz - &copy; 2019 Prototipos Visuales.</p>
         </div>
     </footer>
     <script src="js/script.js"></script>
+    <script src="js/loginst.js"></script>
 </body>
 </html>
