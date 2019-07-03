@@ -5,7 +5,7 @@ function login() {
     var aux = document.getElementById("codelog").value;
     for(i=0; i<logincode.length; i++){
         if (aux == logincode[i]) {
-            window.location = 'teachers.html';
+            window.location = 'docentes.html';
             document.getElementById('wcod').style.display = "none";
             document.getElementById('loginbox').style.display = "none";
             document.getElementById('return').style.display = "none";
@@ -23,7 +23,7 @@ function loginst() {
     var aux = document.getElementById("codelog").value;
     for( i=0; i<logincodes.length; i++){    
         if (aux == logincodes[i]) {
-            window.location = 'students.html';
+            window.location = 'alumnos.html';
             document.getElementById('wcod').style.display = "none";
             document.getElementById('loginbox').style.display = "none";
             document.getElementById('return').style.display = "none";

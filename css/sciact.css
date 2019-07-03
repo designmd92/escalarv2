@@ -15,7 +15,7 @@
 }
 
 .title-sci .sciact-p {
-    color: crimson;
+    color: #7cd000;
     font-size: 60px;
     font-weight: bold;
     text-shadow: 0px 0px 2px black;
@@ -183,7 +183,7 @@
 }
 
 .column-rgt {
-    border-left: 4px dashed crimson;
+    border-left: 4px dashed #7cd000;
     margin-left: 2%;
     float: left;
 }
@@ -298,7 +298,7 @@
 
 .clleft p {
     margin-top: 30%;
-    color: crimson;
+    color: #7cd000;
     font-size: 36px;
     text-shadow: 0px 0px 2px black;
 
