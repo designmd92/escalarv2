@@ -1,0 +1,240 @@
+.all-box {
+    margin-top: 50px;
+    width: 100%;
+    height: 600px;
+}
+
+.grade1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grade1 > .cone, .grade2 > .cone, .grade3 > .cone, .grade4 > .cone, .grade5 > .cone  {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cone > .cact {
+    width: 220px;
+    height: 250px;
+    border-radius: 15px 15px 0 0;
+    background: green;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5), -2px -2px 2px rgba(0, 0, 0, .5);
+}
+
+.cone > .cnam {
+    margin-top: -50px;
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    background: darkgreen;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5), -2px -2px 2px rgba(0, 0, 0, .5);
+}
+
+.cone > .cnam > a {
+    position: relative;
+    top: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.cone > .cnam > a > p {
+    color: white;
+    font-size: 30px;
+}
+
+.grade1 > .ctwo, .grade2 > .ctwo, .grade3 > .ctwo, .grade4 > .ctwo, .grade5 > .ctwo {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ctwo > .cact {
+    width: 220px;
+    height: 250px;
+    border-radius: 15px 15px 0 0;
+    background: green;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5), -2px -2px 2px rgba(0, 0, 0, .5);
+}
+
+.ctwo > .cnam {
+    margin-top: -50px;
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    background: darkgreen;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5), -2px -2px 2px rgba(0, 0, 0, .5);
+}
+
+.ctwo > .cnam > a {
+    position: relative;
+    top: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.ctwo > .cnam > a > p {
+    color: white;
+    font-size: 30px;
+}
+
+.grade1 > .cthree, .grade2 > .cthree, .grade3 > .cthree, .grade4 > .three, .grade5 > .three {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cthree > .cact {
+    width: 220px;
+    height: 250px;
+    border-radius: 15px 15px 0 0;
+    background: green;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5), -2px -2px 2px rgba(0, 0, 0, .5);
+}
+
+.cthree > .cnam {
+    margin-top: -50px;
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    background: darkgreen;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5), -2px -2px 2px rgba(0, 0, 0, .5);
+}
+
+.cthree > .cnam > a {
+    position: relative;
+    top: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.cthree > .cnam > a > p {
+    color: white;
+    font-size: 30px;
+}
+
+.grade1 > .cfour, .grade2 > .cfour, .grade3 > .cfour, .grade4 > .cfour, .grade5 > .cfour {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cfour > .cact {
+    width: 220px;
+    height: 250px;
+    border-radius: 15px 15px 0 0;
+    background: green;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5), -2px -2px 2px rgba(0, 0, 0, .5);
+}
+
+.cfour > .cnam {
+    margin-top: -50px;
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    background: darkgreen;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5), -2px -2px 2px rgba(0, 0, 0, .5);
+}
+
+.cfour > .cnam > a {
+    position: relative;
+    top: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.cfour > .cnam > a > p {
+    color: white;
+    font-size: 30px;
+}
+
+.grade1 > .cfive, .grade2 > .cfive, .grade3 > .cfive, .grade4 > .cfive, .grade5 > .cfive {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cfive > .cact {
+    width: 220px;
+    height: 250px;
+    border-radius: 15px 15px 0 0;
+    background: green;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5), -2px -2px 2px rgba(0, 0, 0, .5);
+}
+
+.cfive > .cnam {
+    margin-top: -50px;
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    background: darkgreen;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5), -2px -2px 2px rgba(0, 0, 0, .5);
+}
+
+.cfive > .cnam > a {
+    position: relative;
+    top: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.cfive > .cnam > a > p {
+    color: white;
+    font-size: 30px;
+}
+
+.grade1 > .csix, .grade2 > .csix, .grade3 > .csix, .grade4 > .csix, .grade5 > .csix {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.csix > .cact {
+    width: 220px;
+    height: 250px;
+    border-radius: 15px 15px 0 0;
+    background: green;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5), -2px -2px 2px rgba(0, 0, 0, .5);
+}
+
+.csix > .cnam {
+    margin-top: -50px;
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    background: darkgreen;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5), -2px -2px 2px rgba(0, 0, 0, .5);
+}
+
+.csix > .cnam > a {
+    position: relative;
+    top: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.csix > .cnam > a > p {
+    color: white;
+    font-size: 30px;
+}
+
+.grade2, .grade3, .grade4, .grade5 {
+    display: none;
+}
+
