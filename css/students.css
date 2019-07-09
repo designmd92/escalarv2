@@ -24,9 +24,26 @@
     width: 220px;
     height: 250px;
     border-radius: 15px 15px 0 0;
-    background: green;
+    background: rgba(0, 150, 0, .5);
     box-shadow: 2px 2px 2px rgba(0, 0, 0, .5), -2px -2px 2px rgba(0, 0, 0, .5);
 }
+
+.cone > .cact > .backcarat {
+    margin-left: 5%;
+    width: 90%;
+    height: 90%;
+    background: white;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .3), -2px -2px 2px rgba(0, 0, 0, .3);
+}
+
+.cone > .cact > .backcarat > img {
+    height: 95%;
+    width: 95%;
+    margin-top: 5%;
+    margin-left: 2.5%;
+}
+
 
 .cone > .cnam {
     margin-top: -50px;
@@ -35,6 +52,14 @@
     border-radius: 15px;
     background: darkgreen;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, .5), -2px -2px 2px rgba(0, 0, 0, .5);
+}
+
+.cone > .cnam:hover {
+    background: rgba(0, 0, 0, 1);
+}
+
+.cone > .cnam:hover > a > p {
+    animation: popup 2s infinite linear;
 }
 
 .cone > .cnam > a {
@@ -61,7 +86,7 @@
     width: 220px;
     height: 250px;
     border-radius: 15px 15px 0 0;
-    background: green;
+    background: rgba(0, 150, 0, .5);
     box-shadow: 2px 2px 2px rgba(0, 0, 0, .5), -2px -2px 2px rgba(0, 0, 0, .5);
 }
 
@@ -72,6 +97,14 @@
     border-radius: 15px;
     background: darkgreen;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, .5), -2px -2px 2px rgba(0, 0, 0, .5);
+}
+
+.ctwo > .cnam:hover {
+    background: rgba(0, 0, 0, 1);
+}
+
+.ctwo > .cnam:hover > a > p {
+    animation: popup 2s infinite linear;
 }
 
 .ctwo > .cnam > a {
@@ -98,8 +131,17 @@
     width: 220px;
     height: 250px;
     border-radius: 15px 15px 0 0;
-    background: green;
+    background: rgba(0, 150, 0, .5);
     box-shadow: 2px 2px 2px rgba(0, 0, 0, .5), -2px -2px 2px rgba(0, 0, 0, .5);
+}
+
+.cthree > .cact > img {
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 90%;
+    height: 95%;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .3), -2px -2px 2px rgba(0, 0, 0, .3);
 }
 
 .cthree > .cnam {
@@ -109,6 +151,14 @@
     border-radius: 15px;
     background: darkgreen;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, .5), -2px -2px 2px rgba(0, 0, 0, .5);
+}
+
+.cthree > .cnam:hover {
+    background: rgba(0, 0, 0, 1);
+}
+
+.cthree > .cnam:hover > a > p {
+    animation: popup 2s infinite linear;
 }
 
 .cthree > .cnam > a {
@@ -135,8 +185,17 @@
     width: 220px;
     height: 250px;
     border-radius: 15px 15px 0 0;
-    background: green;
+    background: rgba(0, 150, 0, .5);
     box-shadow: 2px 2px 2px rgba(0, 0, 0, .5), -2px -2px 2px rgba(0, 0, 0, .5);
+}
+
+.cfour > .cact > img {
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 90%;
+    height: 95%;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .3), -2px -2px 2px rgba(0, 0, 0, .3);
 }
 
 .cfour > .cnam {
@@ -146,6 +205,14 @@
     border-radius: 15px;
     background: darkgreen;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, .5), -2px -2px 2px rgba(0, 0, 0, .5);
+}
+
+.cfour > .cnam:hover {
+    background: rgba(0, 0, 0, 1);
+}
+
+.cfour > .cnam:hover > a > p {
+    animation: popup 2s infinite linear;
 }
 
 .cfour > .cnam > a {
@@ -172,8 +239,19 @@
     width: 220px;
     height: 250px;
     border-radius: 15px 15px 0 0;
-    background: green;
+    background: rgba(0, 150, 0, .5);
     box-shadow: 2px 2px 2px rgba(0, 0, 0, .5), -2px -2px 2px rgba(0, 0, 0, .5);
+}
+
+.cfive > .cact > img {
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 90%;
+    height: 95%;
+    background: white;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .3), -2px -2px 2px rgba(0, 0, 0, .3);
+
 }
 
 .cfive > .cnam {
@@ -183,6 +261,14 @@
     border-radius: 15px;
     background: darkgreen;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, .5), -2px -2px 2px rgba(0, 0, 0, .5);
+}
+
+.cfive > .cnam:hover {
+    background: rgba(0, 0, 0, 1);
+}
+
+.cfive > .cnam:hover > a > p {
+    animation: popup 2s infinite linear;
 }
 
 .cfive > .cnam > a {
@@ -209,7 +295,7 @@
     width: 220px;
     height: 250px;
     border-radius: 15px 15px 0 0;
-    background: green;
+    background: rgba(0, 150, 0, .5);
     box-shadow: 2px 2px 2px rgba(0, 0, 0, .5), -2px -2px 2px rgba(0, 0, 0, .5);
 }
 
@@ -220,6 +306,14 @@
     border-radius: 15px;
     background: darkgreen;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, .5), -2px -2px 2px rgba(0, 0, 0, .5);
+}
+
+.csix > .cnam:hover {
+    background: rgba(0, 0, 0, 1);
+}
+
+.csix > .cnam:hover > a > p {
+    animation: popup 2s infinite linear;
 }
 
 .csix > .cnam > a {
@@ -238,3 +332,12 @@
     display: none;
 }
 
+@keyframes popup{
+    0% {font-size: 30px;}
+    17% {font-size: 35px;}
+    34% {font-size: 30px;}
+    51% {font-size: 35px;}
+    68% {font-size: 30px;}
+    85% {font-size: 35px;}
+    100% {font-size: 30px;}
+}
