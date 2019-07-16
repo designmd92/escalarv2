@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Teko&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 1345px;
+    max-width: 1345px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('../img/glare_wall.png');
+    background-color: rgb(52, 112, 0);
+}
+
+body {
+    font-family: 'Teko', sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.return {
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-decoration: none;
+}
+
+.return span {
+    font-size: 40px;
+    color: black;
+}
+
+#miCanvas {
+    margin-top: 30px;
+    width: 750px;
+    height: 600px;
+    background-color: rgb(50, 122, 54);
+    border:double 6px lightgray;
+}

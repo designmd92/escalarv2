@@ -299,6 +299,15 @@
     box-shadow: 2px 2px 2px rgba(0, 0, 0, .5), -2px -2px 2px rgba(0, 0, 0, .5);
 }
 
+.csix > .cact > img {
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 90%;
+    height: 95%;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .3), -2px -2px 2px rgba(0, 0, 0, .3);
+}
+
 .csix > .cnam {
     margin-top: -50px;
     width: 300px;
