@@ -1,0 +1,57 @@
+.return {
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-decoration: none;
+}
+
+.return span {
+    font-size: 40px;
+    color: black;
+}
+
+.gradeau1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gradeau1 .content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gradeau1 .content .audspanel {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.audspanel .aud1_1, .audspanel .aud1_2, .audspanel .aud1_3, .audspanel .aud1_4, .audspanel .aud1_5, .audspanel .aud1_6, .audspanel .aud1_8, .audspanel .aud1_9 {
+    margin-top: 40px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.audspanel h2 {
+    font-size: 34px;
+}
+
+.gradeau1 .content .vidspanel {
+    width: 49%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-left: 6px dashed #7cd000;
+}
+
+.vidspanel video {
+    margin-top: 50px;
+}
